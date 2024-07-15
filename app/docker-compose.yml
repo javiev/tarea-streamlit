@@ -1,0 +1,9 @@
+services:
+  keras-app:
+    container_name: CIFAR-10-model
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["streamlit", "run", "app.py"]

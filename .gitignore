@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+out/
+
+# Visual Studio Code
+.vscode/

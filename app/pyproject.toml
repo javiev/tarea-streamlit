@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-keras-cifar10"
+version = "0.1.0"
+description = "Una aplicación de Streamlit que utiliza un modelo de Keras entrenado con CIFAR-10"
+authors = ["Javier Gómez C <jaogomezco@gmail.com.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+tensorflow = "^2.15"
+streamlit = "^1.36.0"
+numpy = "^1.21"
+protobuf = "3.20.*"
+altair = "^4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
