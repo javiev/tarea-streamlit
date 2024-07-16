@@ -6,6 +6,7 @@ authors = ["Javier Gómez C <jaogomezco@gmail.com.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+pyarrow = "^16.0.0"
 tensorflow = "^2.15"
 streamlit = "^1.36.0"
 numpy = "^1.21"
